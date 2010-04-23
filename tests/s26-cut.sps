@@ -97,5 +97,5 @@
 
 ; run the checks when loading
 (check-all)
-(display "passed")
-(newline)
+;; (display "passed")
+;; (newline)
