@@ -77,6 +77,9 @@
   (define (char-cased? c)
     (char-upper-case? (char-upcase c)))
   
+  ;; (SRFI-23-error->R6RS "(library (surfage s13 strings))"
+  ;;  (include/resolve ("surfage" "%3a13") "srfi-13.scm"))
+
   (SRFI-23-error->R6RS "(library (surfage s13 strings))"
-   (include/resolve ("surfage" "%3a13") "srfi-13.scm"))
+   (include/resolve ("surfage" "s13") "srfi-13.scm"))
 )
