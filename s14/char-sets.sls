@@ -63,5 +63,4 @@
              (assertion-violation caller "check-arg failed" val))])))
   
   (SRFI-23-error->R6RS "(library (surfage s14 char-sets))"
-   (include/resolve ("surfage" "%3a14") "surfage-14.scm"))
-)
+   (include/resolve ("surfage" "s14") "srfi-14.scm")))
